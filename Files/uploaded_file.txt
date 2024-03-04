@@ -1,0 +1,31 @@
+mysql> CREATE DATABASE PRACTICE;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> CREATE TABLES 
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TABLES' at line 1
+mysql> DROP DATABASE PRACTICE;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| Development        |
+| TESTDEVELOPER      |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+6 rows in set (0.01 sec)
+
+mysql> CREATE DATABASE BIKES;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> USE BIKES
+Database changed
+mysql> DROP DATABASE BIKES;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> NOTEE
